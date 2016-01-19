@@ -1,0 +1,7 @@
+dispatch:
+
+  - url: "*/shrink_all"
+    module: backend
+
+  - url: "*/*"
+    module: default
